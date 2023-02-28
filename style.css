@@ -1,0 +1,188 @@
+*{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 21px;
+}
+body{
+    margin: 0;
+    background: #eee;
+}
+
+.header{
+    background: #333;
+    padding: 5px;
+    display:flexbox;
+}
+
+#icono{
+    margin: 0;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+nav{
+    height: 60px;
+    
+}
+
+.nav__ul{
+    text-align: right;
+    margin: 0;
+    padding-right: 100px;
+}
+.nav__li{
+    display: inline-block;
+    padding: 12px;
+    color: #fff;
+}
+
+.nav__li:hover > a {
+    color: #bbb;
+}
+.nav__li:hover{
+    color: #bbb;
+    text-shadow: 2px 2px 2px #03377a;
+
+}
+.nav__li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.nav__li i{
+    box-sizing: border-box;
+    margin-right: 5px;
+}
+
+/* body */
+
+.conteiner{
+    display: flex;
+}
+
+.conteiner i {
+    margin-right: 10px;
+
+}
+
+h2{
+    font-size: 26px;
+}
+
+/*  */
+
+#InfoPersonal{
+    justify-content: center;
+    padding: 10px;
+    background:  #03377a;
+    color: #fff;
+
+}
+
+.Identidad{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#FotoPerfil{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+ 
+h1{
+    font-size: 30px;
+}
+
+#Contacto p{
+    padding-left:25px ;
+}
+
+
+
+#Habilidad li{
+    padding-left:25px ;
+
+}
+/*  */
+
+.InfoProfesional{
+    text-align: left;
+    margin: 0;
+}
+
+.InfoProfesional h2 {
+    border: 0px solid #000;
+    background-color: #294e7e;
+    color: #fff;
+    padding: 6px;
+}
+
+
+h4{
+    padding-left: 10px;
+}
+
+.InfoProfesional p, li {
+    padding-left: 20px;
+}
+
+.fecha{
+    color: #666;
+}
+
+button{
+    font-size: 15px;
+    margin-left: 85%;
+    padding: 20px;
+    border: 0px solid;
+    border-radius: 100% ;
+}
+
+button:hover{
+    color: #fff;
+    background: #294e7e;
+    box-shadow: 4px 4px 5px 0px #03377a80;
+    text-shadow: 2px 2px 7px #0ae9fd;
+    
+}
+
+@media only screen and (max-width:700px) {
+
+    body{
+        background: #eee;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .conteiner{
+        display: inline-block;
+    }
+
+    
+    nav{
+        text-align: center;
+        height: 100%;
+    }
+
+    #icono{
+        
+        margin: 0;
+        padding: 5px;
+        width: 100px;
+        height: 100px;
+        position:relative;
+
+    }
+    .nav__ul{
+        text-align: left;
+        margin: 0;
+    }
+    .nav__li{
+        display: block;
+    }
+
+
+}
+
